@@ -1,0 +1,30 @@
+.footerBox {
+    min-height: 20vh;
+    background-color: #c7b9d5;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer {
+    background-color: #7ac8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.iconBox {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: #671d33;
+}

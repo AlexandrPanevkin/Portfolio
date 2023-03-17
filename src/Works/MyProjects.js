@@ -12,7 +12,7 @@ export const MyProjects = () => {
                 <h2 className={s.title}>My projects</h2>
                 <div className={s.myProjects}>
                     <MyProject img={socialNetwork} title={'Social Network'} description={'React, Redux, TypeScript, Axios, Redux-thunk, React-Router-dom'}/>
-                    <MyProject img={todolist} title={'Todolist'} description={'React, Redux, TypeScript, Formik, MUI, Axios,Redux-thunk, React-Router-dom.'}/>
+                    <MyProject img={todolist} title={'Todolist'} description={'React, Redux, TypeScript, Axios, Redux-thunk, React-Router-dom'}/>
                 </div>
             </div>
         </div>

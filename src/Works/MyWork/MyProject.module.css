@@ -6,7 +6,17 @@
     text-align: center;
 }
 
-.image {
-    width: 440px;
-    height: 290px;
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    width: 100%;
+    background-color: #b6b2b2;
+}
+
+.nav {
+    background-color: #eebd3e;
+    text-decoration: none;
+    padding: 10px;
 }

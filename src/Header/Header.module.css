@@ -5,3 +5,7 @@
     height: 80px;
     background-color: rgba(38, 115, 147, 0.4);
 }
+
+.navBar {
+    justify-content: flex-end;
+}
