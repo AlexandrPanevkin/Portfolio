@@ -1,5 +1,4 @@
 .contactsBox {
-    min-height: 100vh;
     background-color: #c8f3c8;
 }
 
@@ -17,6 +16,18 @@
     flex-direction: column;
     width: 50%;
     align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .contactsForm {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contactsForm {
+        width: 100%;
+    }
 }
 
 .contactsFormInput {

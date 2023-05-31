@@ -1,7 +1,3 @@
-.myProjectsBlock {
-    background-color: #171A1D;
-}
-
 .title {
     color: #FFFFFF;
     font-size: 34px;
@@ -23,17 +19,4 @@
     transform: translate(-50%, 50%);
 }
 
-.myProjects {
-    border: 1px solid black;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1170px) {
-    .myProjects {
-        justify-content: center;
-    }
-}
 
