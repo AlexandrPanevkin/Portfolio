@@ -2,19 +2,17 @@ import React from 'react';
 import s from './MyProject.module.css'
 
 type MyProjectPropsType = {
-    img: string
+    style: { backgroundImage: string; }
     title: string
-    description: string
 }
 
-export const MyProject = (props: MyProjectPropsType) => {
+export const MyProject: React.FC<MyProjectPropsType> = ({style, title}) => {
     return (
         <div className={s.myProject}>
-            <div className={s.imgContainer}>
-                <a className={s.nav} href="">Смотреть</a>
-            </div>
-            <h3>{props.title}</h3>
-            <span>{props.description}</span>
+            {/*<div className={s.imgContainer} style={style}>*/}
+                <a className={s.imgContainer} style={style} href=""></a>
+            {/*</div>*/}
+            <h3 className={s.projectTitle}>{title}</h3>
         </div>
     );
 };

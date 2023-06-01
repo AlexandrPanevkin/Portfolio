@@ -5,8 +5,7 @@ type TitlePropsType = {
     name: string
 }
 
-export const Title = (props: TitlePropsType) => {
-    const {name} = props
+export const Title: React.FC<TitlePropsType> = ({name}) => {
     return (
         <div className={s.title}><h2>{name}</h2></div>
     );

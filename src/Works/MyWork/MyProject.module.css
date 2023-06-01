@@ -1,5 +1,5 @@
 .myProject {
-    background-color: #7ac8f8;
+    width: 445px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,14 +10,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 360px;
+    height: 300px;
     width: 100%;
     background-color: #b6b2b2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    cursor: pointer;
+    position: relative;
 }
 
-.nav {
-    background-color: #eebd3e;
-    text-decoration: none;
-    padding: 10px;
+.imgContainer:hover {
+    transform: scale(1.1);
+    filter: initial;
+    transition: all 0.5s ease;
 }
+.nav {    /*background-color: #eebd3e;*/
+    /*text-decoration: none;*/
+    /*padding: 10px;*/
+}
+
+.projectTitle {
+    font-family: saira, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+}
+
+/*.description {*/
+/*    font-family: 'Nunito', sans-serif;*/
+/*    font-size: 17px;*/
+/*    line-height: 1.8em;*/
+/*    word-spacing: 0;*/
+/*    letter-spacing: -0.2px;*/
+/*    font-weight: 400;*/
+/*    color: #aaaaaa;*/
+/*}*/
 

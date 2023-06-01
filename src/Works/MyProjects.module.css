@@ -2,29 +2,8 @@
     background-color: #171A1D;
 }
 
-.title {
-    color: #FFFFFF;
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 42px;
-    font-family: 'Saira', sans-serif;
-    margin: 15px;
-    position: relative;
-}
-
-.title::before {
-    content: '';
-    width: 160px;
-    height: 1px;
-    background: #cf1f1f;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translate(-50%, 50%);
-}
 
 .myProjects {
-    border: 1px solid black;
     width: 100%;
     display: flex;
     justify-content: space-between;
