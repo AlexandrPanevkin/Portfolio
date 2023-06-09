@@ -1,16 +1,17 @@
-.myProject {
-    width: 445px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+@import '../../common/styles/sass/variables';
 
-.imgContainer {
+.myProject {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .imgContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 500px;
     width: 100%;
     background-color: #b6b2b2;
     background-size: cover;
@@ -19,24 +20,22 @@
     filter: grayscale(100%);
     cursor: pointer;
     position: relative;
-}
 
-.imgContainer:hover {
-    transform: scale(1.1);
-    filter: initial;
-    transition: all 0.5s ease;
-}
-.nav {    /*background-color: #eebd3e;*/
-    /*text-decoration: none;*/
-    /*padding: 10px;*/
-}
+    &:hover {
+      transform: scale(1.1);
+      filter: initial;
+      transition: all 0.5s ease;
+    }
+  }
 
-.projectTitle {
+  .projectTitle {
     font-family: saira, Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 23px;
-    color: #fff;
+    color: $textColor;
+  }
 }
+
 
 /*.description {*/
 /*    font-family: 'Nunito', sans-serif;*/

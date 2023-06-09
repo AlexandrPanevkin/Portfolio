@@ -1,0 +1,23 @@
+@import '../../styles/sass/variables';
+
+.title {
+    color: $textColor;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+    font-family: 'Saira', sans-serif;
+    margin: 15px;
+    position: relative;
+    &::before {
+        content: '';
+        width: 160px;
+        height: 1px;
+        background: $primaryColor;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+

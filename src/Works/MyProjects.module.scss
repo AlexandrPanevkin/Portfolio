@@ -1,18 +1,22 @@
+@import '../common/styles/sass/variables';
+
 .myProjectsBlock {
-    background-color: #171A1D;
-}
+  background-color: $bgColor;
 
-
-.myProjects {
+  .myProjects {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    @media screen and (max-width: 1805px) {
+      justify-content: center;
+    }
+  }
+
 }
 
-@media screen and (max-width: 1170px) {
-    .myProjects {
-        justify-content: center;
-    }
-}
+
+
+
+
 
