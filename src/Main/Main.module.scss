@@ -1,0 +1,48 @@
+@import '../common/styles/sass/variables';
+
+
+.mainBlock {
+    display: flex;
+    min-height: 100vh;
+    background-color: $bgColor;
+    .text {
+        font-family: saira,sans-serif;
+        width: 1000px;
+        //background-color: #c75d5d;
+        .name {
+            font-size: 16px;
+            line-height: 25px;
+            color: $primaryColor;
+        }
+        .profession {
+            font-weight: 700;
+            color: #FFFFFF;
+            font-size: 64px;
+            line-height: 70px;
+        }
+    }
+    .photo {
+        width: 800px;
+        height: 1000px;
+        padding-top: 100px;
+        //background-color: #6488a2;
+        .me {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 1000px;
+            width: 100%;
+            background-color: #b6b2b2;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: grayscale(100%);
+            cursor: pointer;
+            //position: relative;
+            border: $bgColor
+        }
+    }
+}
+
+
+

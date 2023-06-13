@@ -1,0 +1,22 @@
+@import '../common/styles/sass/variables';
+
+.remoteContainer {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  .text {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 70px;
+  }
+}
+
+
+
+
+
+
