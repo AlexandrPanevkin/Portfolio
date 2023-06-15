@@ -1,0 +1,21 @@
+@import "./src/common/styles/sass/variables";
+
+.nav {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    padding-right: 150px;
+    .navText {
+        color: $textColor;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 88px;
+        text-decoration: none;
+        &:hover {
+            color: $primaryColor;
+            transition: all 0.3s ease-in-out;
+
+        }
+    }
+
+}

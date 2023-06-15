@@ -5,14 +5,16 @@
     display: flex;
     min-height: 100vh;
     background-color: $bgColor;
+    height: 150px;
     .text {
         font-family: saira,sans-serif;
-        width: 1000px;
+        width: 800px;
+        height: 200px;
         //background-color: #c75d5d;
         .name {
-            font-size: 16px;
-            line-height: 25px;
+            font-size: 24px;
             color: $primaryColor;
+            margin-bottom: -50px;
         }
         .profession {
             font-weight: 700;
@@ -22,15 +24,14 @@
         }
     }
     .photo {
-        width: 800px;
-        height: 1000px;
-        padding-top: 100px;
+        width: 500px;
+        height: 600px;
         //background-color: #6488a2;
         .me {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 1000px;
+            height: 600px;
             width: 100%;
             background-color: #b6b2b2;
             background-size: cover;
